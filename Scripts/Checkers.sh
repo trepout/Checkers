@@ -19,11 +19,12 @@
 
 
 
-# Load the required modules
-module load anaconda/2020.07-Python3.8-gcc8
-module load cuda/10.1
-module load cudnn/7.6.5-cuda10.1
-module load imod/4.11.15
+# # MASSIVE users: Load the required modules in MASSIVE https://www.massive.org.au
+# module load anaconda/2020.07-Python3.8-gcc8
+# module load cuda/10.1
+# module load cudnn/7.6.5-cuda10.1
+# module load imod/4.11.15
+# module load matlab/r2019b
 
 # Define the directory where computation is performed
 workingdir=/path/to/my/working/directory
